@@ -48,7 +48,7 @@ class App extends Component {
                 tasks={this.state.tasks}
                 deleteTask={this.deleteTask}
                 checkDone = {this.checkDone}/>
-              <Posts/>
+            
     </div>
   )}
 }

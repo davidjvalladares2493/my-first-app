@@ -7,8 +7,6 @@ export default class TaskForm extends Component {
     description: ''
   }
 
-//Podemos mantener la funcion flecha sin
-//parentesis 'onSubmit = (e) => {}' si la funcion solo recibe un parametro
   onSubmit = e => {
     console.log(this.state);
     this.props.addTask(this.state.title, this.state.description);

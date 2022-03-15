@@ -3,8 +3,6 @@ import React, {Component} from 'react';
 import tasks2 from './sample/tasks.json';
 import Tasks from './components/tasks.js';
 import TaskForm from './components/TaskForm.js';
-import Posts from './components/Posts.js';
-import { BrowserRouter as Router,  Route, Link } from 'react-router-dom';
 
 console.log(tasks2);
 

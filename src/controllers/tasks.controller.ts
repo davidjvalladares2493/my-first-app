@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Put, Delete, Body, Param  } from "@nestjs/common";
+import { Controller, Get, Post, Put, Delete, Body, Param, Req, Res  } from "@nestjs/common";
 import { CreateTaskDto } from "./controllers/create-task.dto";
 import { Request, Response } from "express";
 
@@ -12,6 +12,9 @@ export class TasksController{
             "description": "LinkedIn",
             "done": false
           };
+    /*getTasks(@Req() req, @Res() res): Response {
+      return res.send("Hello World");
+    }*/
   }
 
   @Post()

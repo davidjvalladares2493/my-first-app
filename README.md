@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Link de repositorio
 
-https://github.com/davidjvalladares2493/todo-list
+https://github.com/davidjvalladares2493/todo-list/tree/master
 
 ## Available Scripts
 
